@@ -2,9 +2,8 @@ import java.util.Scanner;
 class parameter_of_rectangle{
 	public static void main(String[]args){
 		Scanner input = new Scanner(System.in);
-		int r =input.nextInt();
-		int h = input.nextInt();
-		int V =(3.14*(r*r)*h);
-		System.out.print(V);
-		
+		int l = input.nextInt();
+		int w = input.nextInt();
+		int P = (2*(l+w));
+		System.out.print(P);
 }}	

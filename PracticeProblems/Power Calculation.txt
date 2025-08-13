@@ -1,10 +1,9 @@
 import java.util.Scanner;
 class power_calculation{
 	public static void main(String[]args){
-		Scanner input =new Scanner(System.in);
-		int p = input.nextInt();
-		int r = input.nextInt();
-		int t = input.nextInt();
-		int SI = (p*r*t)/100;
-		System.out.print(SI);
+		Scanner input = new Scanner(System.in);
+		int a=inuput.nextInt();
+		int b = input.nextInt();
+		int N= Math.pow(a,b);
+		System.out.print(N);
 }}		
